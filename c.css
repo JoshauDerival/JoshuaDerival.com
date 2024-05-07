@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing:border-box;
 }
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -45,6 +46,8 @@ button {
 button:hover {
     background-color: rgba(0,136,169,0.8);
 }
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 body{
     color: white;
 }
