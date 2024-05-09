@@ -13,7 +13,7 @@ li, a, button {
     text-decoration: none;
 }
 header{
-    margin-top: -30px;
+    margin-top: -25px;
     margin-bottom: -30px;
     display: flex;
     justify-content: flex-end;
@@ -60,14 +60,28 @@ section {
     height: 100vh;
     padding: 100px
 }
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgb(0,6,43) , #fff);
+    z-index: 1000;
+}
 section img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     object-fit: contain;
+    pointer-events: none;
+}
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: .5;}
 }
 #btn{
+    animation: blink 2s linear infinite;
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -78,6 +92,13 @@ section img {
     position: absolute;
     top: 390;
     left: 440;
-    z-index: 9000;
-    
+    z-index: 9000;   
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: rgb(0,6,43);
+}
+.sec h7 {
+    font-size: 2.5em;
 }
