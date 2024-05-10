@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.12.5",
     "parcel-bundler": "^1.12.5"
   }
 }
