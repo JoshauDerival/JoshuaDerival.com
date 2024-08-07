@@ -20,6 +20,7 @@ header{
     align-items: center;
     padding: 30px 2.5%;
     z-index: 10000;
+
 }
 .nav_links {
     list-style: none;
@@ -45,4 +46,9 @@ button {
 }
 button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+body{
+    overflow: hidden;
+    min-height: 100yh;
+    color: white;
 }
